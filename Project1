@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index1.css">
+    <title>Document</title>
+</head>
+<body>
+    <h3 class="Head">Our Menu</h3>
+    <div class="container1">
+        <div class="innerdiv">
+            <p>Chicken</p>
+        </div>
+        <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam nemo quibusdam, delectus excepturi pariatur est recusandae explicabo tempore esse odit expedita asperiores. Soluta ipsum necessitatibus aliquam laudantium nostrum molestias nemo, ea provident tempora doloribus fuga impedit culpa, magnam sed quo porro, earum quisquam. Amet ullam architecto sint maxime aut voluptatum.</p>
+    </div>
+    <div class="container1">
+        <div  style="background-color: red; color: white;" class="innerdiv">
+            <p>Beef</p>
+        </div>
+        <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam nemo quibusdam, delectus excepturi pariatur est recusandae explicabo tempore esse odit expedita asperiores. Soluta ipsum necessitatibus aliquam laudantium nostrum molestias nemo, ea provident tempora doloribus fuga impedit culpa, magnam sed quo porro, earum quisquam. Amet ullam architecto sint maxime aut voluptatum.</p>
+    </div>
+    <div class="container1">
+        <div  style="background-color: yellow;" class="innerdiv">
+            <p>Sushi</p>
+        </div>
+        <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam nemo quibusdam, delectus excepturi pariatur est recusandae explicabo tempore esse odit expedita asperiores. Soluta ipsum necessitatibus aliquam laudantium nostrum molestias nemo, ea provident tempora doloribus fuga impedit culpa, magnam sed quo porro, earum quisquam. Amet ullam architecto sint maxime aut voluptatum.</p>
+    </div>
+    
+</body>
+</html>
+
+
+
+
+
+CSS File
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;padding: 0;
+}
+.Head{
+    text-align: center;
+    color: black;
+}
+.container1{
+    background-color: grey;
+    border: 2px solid black;
+    width: 30%;
+    float: left;
+    margin: 20px;
+    padding: 10px;
+    display: block
+}
+.innerdiv{
+    float: right;
+    display: block;
+    background-color: pink;
+    border: 1px solid black;
+    position: relative;
+    top: -0.9vw;
+    left: 0.85vw;
+    margin: 0;
+    font-weight: bold;
+    padding: 2px 15px 2px 15px;
+
+
+}
+.content{
+    display:block ;
+}
+.Head{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
